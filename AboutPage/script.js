@@ -12,12 +12,12 @@ function raf(time) {
 requestAnimationFrame(raf)
 
 var tl = gsap.timeline({scrollTrigger:{
-    trigger: ".page-1",
+    trigger: ".page1",
     start:"50% 50%",
-    end: "150% 50%",
+    end: "160% 50%",
     scrub: true,
-    markers: true,
-    pin: true
+    // markers: true,
+    pin: true,
 }})
 
 tl.to(".rotate", {
@@ -25,14 +25,24 @@ tl.to(".rotate", {
     scale: 0.8,   
 },'x')
 tl.to("#row2", {
-    marginTop: "-28%"
-},x)
+    marginTop: "-1%"
+},'x')
 tl.to("#row3", {
-    marginTop: "-32%"
-},x)
-.to("#row4", {
-    marginTop: "-37%"
-},x)
-.to("#row5", {
-    marginTop: "-40%"
-},x)
+    marginTop: "-2%"
+},'x')
+tl.to("#row4", {
+    marginTop: "9%"
+},'x')
+tl.to("#row5", {
+    marginTop: "-10%"
+},'x')
+tl.to(".overlay h1", {
+    opacity: "1",
+    delay: 0.2
+},'x')
+tl.to(".overlay", {
+    backgroundColor: "#000000b4"
+},'x')
+tl.to(".scroll-bar", {
+    width:  "100%",
+},'x')
