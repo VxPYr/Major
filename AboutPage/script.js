@@ -46,3 +46,31 @@ tl.to(".overlay", {
 tl.to(".scroll-bar", {
     width:  "100%",
 },'x')
+
+var tl2 = gsap.timeline({scrollTrigger:{
+    trigger: ".page2",
+    start:"0% 70%",
+    end: "50% 50%",
+    scrub: true,
+    // markers: true,
+}})
+
+tl2.to(".curve-wrapper",{
+    height: "0%",
+    marginTop: 0
+})
+
+let tl3 = gsap.timeline({scrollTrigger:{
+    trigger: ".content2",
+    start: "5% 60%",
+    end: "60% 60%",
+    // markers: true,
+    scrub: 1
+},});
+tl3.to(".text-hover h1",{
+    width: "100%"
+})
+tl3.to(".text-hover h2",{
+    width: "100%",
+    delay: -0.4,
+})

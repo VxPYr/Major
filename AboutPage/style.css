@@ -167,3 +167,158 @@ nav{
     border-radius: 50px;
     background-color: #fff;
 }
+
+/* ------------------------------------------------------------------------------- */
+
+.page2{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+.curve-wrapper{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    /* background-color: green; */
+    overflow: hidden;
+    margin-top: -100px;
+}
+.curve{
+    position: absolute;
+    left: 50%;
+    width: 150%;
+    height: 750%;
+    border-radius: 50%;
+    background-color: #fff;
+    transform: translate(-50%);
+}
+
+.content2{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: #fff;
+    overflow:hidden;
+}
+.page2 .text{
+    position: absolute;
+    width: 100%;
+    font-family: poppins;
+    /* font-size: 6vw; */
+    /* font-weight: 600; */
+    left: 3%;
+    opacity: .2;
+}
+.text-hover{
+    position: absolute;
+    /* left: 10%; */
+    font-family: poppins;
+    /* font-weight: 600; */
+    opacity: 1;
+    margin-left: 3%;
+}
+.text h1, .text-hover h1{
+    font-size: 6.5vw;
+    font-weight: 600;
+}
+.text h2, .text-hover h2{
+    font-size: 6.5vw;
+    font-weight: 600;
+}
+.text-hover h1{
+    width: 0%;
+    text-wrap: nowrap;
+    overflow: hidden;
+}
+.text-hover h2{
+    width: 0%;
+    text-wrap: nowrap;
+    overflow: hidden;
+}
+
+/* ---------------------------------------------------------------------------------*/
+
+.page3{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    /* background-color: green; */
+}
+
+.top{
+    position: absolute;
+    top: -15vh;
+    width: 100%;
+    height: 15vh;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vw 3vw;
+}
+.top h4{
+    font-size: 1.5vw;
+    opacity: 0.5;
+}
+.button{
+    display: flex;
+    gap: 20px
+}
+.button-book{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    background-color: #000;
+    border-radius: 50px;
+    /* height: 3vh; */
+    padding: 1.5vw 3vw;
+}
+.button-text{
+    /* background-color: blue; */
+    height: 3vh;
+    color: #fff;
+    font-size: 1.5vh;
+    overflow: hidden;
+    cursor: pointer;
+}
+.button-text h2{
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1)0.7s ;
+}
+.button-book:hover h2:nth-child(1){
+    margin-top: -2.6vh;
+}
+
+.button-price{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    background-color: #E1E1E1;
+    border-radius: 50px;
+    /* height: 3vh; */
+    padding: 1.5vw 3vw;
+}
+.button-price-text{
+    /* background-color: blue; */
+    height: 3vh;
+    color: #000;
+    font-size: 1.5vh;
+    overflow: hidden;
+    cursor: pointer;
+}
+.button-price-text h2{
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1)0.5s ;
+}
+.button-price:hover h2:nth-child(1){
+    margin-top: -2.7vh;
+}
+
+.bottom{
+    width: 100%;
+    height: 15vh;
+    background-color: #000;
+}
