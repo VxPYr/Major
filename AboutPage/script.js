@@ -74,3 +74,51 @@ tl3.to(".text-hover h2",{
     width: "100%",
     delay: -0.4,
 })
+
+let tl4 = gsap.timeline({scrollTrigger:{
+    trigger: ".page4",
+    start: "50% 50%",
+    end: "200% 50%",
+    pin:true,
+    // markers: true,
+    scrub: 1
+},});
+tl4.to("#c1",{
+    marginTop: "-25%",
+    opacity: "1"
+}, 'a-1')
+tl4.to("#c2",{
+    opacity: "1"
+}, 'a-2')
+tl4.to("#c1",{
+    marginTop: "-100%",
+    opacity: "0"
+}, 'a-2')
+tl4.to("#c3",{
+    opacity: "1"
+}, 'a-3')
+tl4.to("#c2",{
+    opacity: "0"
+}, 'a-3')
+tl4.to("#c1",{
+    marginTop: "-180%",
+}, 'a-3')
+tl4.to("#c4",{
+    opacity: "1"
+}, 'a-4')
+tl4.to("#c3",{
+    opacity: "0"
+}, 'a-4')
+tl4.to("#c2",{
+    opacity: "0"
+}, 'a-4')
+tl4.to("#c1",{
+    marginTop: "-260%",
+}, 'a-4')
+tl4.to("#c3",{
+    opacity: "0"
+}, 'a-4')
+tl4.to(".star",{
+    marginLeft: "100%",
+    rotate: 360
+})

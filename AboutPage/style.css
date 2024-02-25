@@ -371,6 +371,7 @@ nav{
     display: flex;
     flex-direction: column;
     gap: 5vh;
+    opacity: 0;
 }
 .r-content h1{
     font-size: 2.5vw;
