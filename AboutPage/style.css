@@ -321,4 +321,61 @@ nav{
     width: 100%;
     height: 15vh;
     background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+.page4{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between;  */
+}
+.page4 .left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3vw;
+}
+.left h1{
+    font-size: 8vw;
+}
+.star{
+    width: 7vw;
+    height: 7vw;
+    background-color: #f4f4f4;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page4 .right{
+    width: 50%;
+    height: 200%;
+    display: flex;
+    flex-direction: column;
+    gap: 35vh;
+    margin-top: 25%;
+    padding-left: 10vw;
+}
+
+.page4 .right .r-content{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+.r-content h1{
+    font-size: 2.5vw;
+}
+.r-content p{
+    font-size: 1.5vw;
+    width: 75%;
 }
