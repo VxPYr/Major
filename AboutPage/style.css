@@ -333,6 +333,7 @@ nav{
     height: 100vh;
     background-color: #fff;
     display: flex;
+    overflow: hidden;
     /* align-items: center; */
     /* justify-content: space-between;  */
 }
@@ -380,3 +381,39 @@ nav{
     font-size: 1.5vw;
     width: 75%;
 }
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+.page5{
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    /* font-weight: 400; */
+    overflow: hidden;
+}
+
+.page5 p{
+    font-size: 2.3vw;
+    font-weight: 600;
+    opacity: 0.5;
+    margin-top: 10vh;
+    margin-bottom: 14vh;
+
+}
+.page5 .text{
+    margin-left: 1vh;
+    top: 20%;
+    opacity: .2;
+}
+.page5 .text-hover{
+    top: 30%;
+    margin-left: 1vh;
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+

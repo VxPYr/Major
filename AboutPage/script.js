@@ -67,10 +67,10 @@ let tl3 = gsap.timeline({scrollTrigger:{
     // markers: true,
     scrub: 1
 },});
-tl3.to(".text-hover h1",{
+tl3.to(".content2 .text-hover h1",{
     width: "100%"
 })
-tl3.to(".text-hover h2",{
+tl3.to(".content2 .text-hover h2",{
     width: "100%",
     delay: -0.4,
 })
@@ -121,4 +121,19 @@ tl4.to("#c3",{
 tl4.to(".star",{
     marginLeft: "100%",
     rotate: 360
+})
+
+let tl5 = gsap.timeline({scrollTrigger:{
+    trigger: ".page5",
+    start: "5% 60%",
+    end: "60% 60%",
+    // markers: true,
+    scrub: 1
+},});
+tl5.to(".page5 .text-hover h1",{
+    width: "100%"
+})
+tl5.to(".page5 .text-hover h2",{
+    width: "100%",
+    delay: -0.4,
 })
