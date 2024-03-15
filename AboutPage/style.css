@@ -403,7 +403,6 @@ nav{
     opacity: 0.5;
     margin-top: 10vh;
     margin-bottom: 14vh;
-
 }
 .page5 .text{
     margin-left: 1vh;
@@ -417,3 +416,81 @@ nav{
 
 /* ------------------------------------------------------------------------------------------------------------- */
 
+.page6{
+    width: 100%;
+    height: 100vh;
+    background-color: #F5F5F5;
+}
+.page6 .curve-wrapper6{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    margin-top: 100px;
+    margin-bottom: 15vh;
+}
+.page6 .curve6{
+    bottom: 0;
+    position: absolute;
+    left: 50%;
+    width: 150%;
+    height: 750%;
+    border-radius: 50%;
+    background-color: #fff;
+    transform: translate(-50%);
+}
+.page6 .text{
+    margin-left: 1vh;
+    top: 20%;
+    opacity: .2;
+}
+.page6 .text-hover{
+    top: 30%;
+    margin-left: 1vh;
+}
+.top_part6{
+    width: 100%;
+    height: 20vh;
+    border-top: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+}
+.left_top6{
+    width: 50%;
+    padding-left: 5vw;
+}
+.left_top6 h1{
+    font-size: 5vw;
+}
+.right_top6{
+    width: 50%;
+}
+.right_top6 button{
+    padding: 1.5vw 3vw;
+    background-color: #d1d1d1;
+    border: none;
+    border-radius: 50px;
+    font-size: 1vw;
+}
+
+.bottom_part6{
+    width: 100%;
+    display: flex;
+}
+.left_bottom6{
+    width: 50%;
+}
+.right_bottom6{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+.page7{
+    width: 100%;
+}

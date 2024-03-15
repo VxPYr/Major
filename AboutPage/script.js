@@ -125,8 +125,8 @@ tl4.to(".star",{
 
 let tl5 = gsap.timeline({scrollTrigger:{
     trigger: ".page5",
-    start: "5% 60%",
-    end: "60% 60%",
+    start: "40% 70%",
+    end: "80% 60%",
     // markers: true,
     scrub: 1
 },});
@@ -134,6 +134,32 @@ tl5.to(".page5 .text-hover h1",{
     width: "100%"
 })
 tl5.to(".page5 .text-hover h2",{
+    width: "100%",
+    delay: -0.4,
+})
+
+let tl6 = gsap.timeline({scrollTrigger:{
+    trigger: ".page6",
+    start: "0% 70%",
+    end: "50% 50%",
+    // markers: true,
+    scrub: 1
+},});
+tl6.to(".page6 .curve-wrapper6",{
+    height: "0%"
+})
+
+let tl6_sec = gsap.timeline({scrollTrigger:{
+    trigger: ".content6",
+    start: "20% 70%",
+    end: "50% 50%",
+    // markers: true,
+    scrub: 1
+},});
+tl6_sec.to(".page6 .text-hover h1",{
+    width: "100%"
+})
+tl6_sec.to(".page6 .text-hover h2",{
     width: "100%",
     delay: -0.4,
 })
