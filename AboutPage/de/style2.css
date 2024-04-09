@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter;
+    font-weight: 400;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    min-height: 100vh;
+    width: 100%;
+    /* background-color: green */
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    height: 15vh;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vw 3vw;
+    mix-blend-mode: difference;
+}
+.left-nav{
+    height: 6vh;
+    /* background-color: cyan; */
+    font-size: 1.5vw;
+    overflow:hidden;
+    cursor: pointer;
+}
+.left-nav h1{
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1)0.5s;
+    color: #fff;
+}
+/* .left-nav:hover h1:nth-child(1){
+    margin-top: -5.5vh;
+} */
+.left-nav:hover .logo{
+    margin-top: -5.5vh;
+}
+.right-nav{
+    height: 3vh;
+    font-size: 0.8vw;
+    overflow:hidden;
+    cursor: pointer;
+}
+.right-nav h2{
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1)0.5s;
+    color: #fff;
+}
+.right-nav:hover .nav-contact{
+    margin-top: -3vh;
+}
+
+.page1{
+    min-height: 100%;
+    width: 100%;
+    /* overflow: hidden; */
+    background-color: black;
+}
+.page1 .content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    /* background-color: green; */
+}
+.rotate{
+    width: 200vw;
+    height: 200vh;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2vw;
+    scale: 1;
+}
+.row{
+    width: calc(200vw/5);
+    height: 100%;
+    /* background-color: #fff; */
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+.img-div{
+    width: 100%;
+    height: calc(100%/4);
+    overflow: hidden;
+    background-color: bisque;
+    border-radius: 10px;
+}
+.img-div img{
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+}
+#row2{
+    margin-top: -5%;
+}
+#row3{
+    margin-top: -9%;
+}
+#row4{
+    margin-top: -12%;
+}
+#row5{
+    margin-top: -15%;
+}

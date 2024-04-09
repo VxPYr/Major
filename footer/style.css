@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;1,600&family=Orbitron&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 1.6;
+}
+
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.footer{
+    background: #0c0c0c;
+    padding: 5% 0 5%;
+}
+
+h4{
+    color: #f8f8f8;
+    font-size: 23px;
+    padding-bottom: 10px;
+}
+
+.info{
+    width: 40%;
+    padding-left: 2%;
+}
+
+.info-div{
+    color: #828282;
+}
+
+.contacts{
+    color: #828282;
+    text-decoration: none;
+    width: 15%;
+}
+
+.nav{
+    width: 10%;
+    padding-left: 5%;
+}
+
+img{
+    width: 100%;
+}
+
+.soc-media{
+    width: 15%;
+    padding-left: 15%;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    color: #828282;
+}
+
+a:hover {
+    color: #605f5f;
+    transition: all .3s;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
