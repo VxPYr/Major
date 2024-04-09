@@ -285,11 +285,18 @@ nav{
     overflow: hidden;
     cursor: pointer;
 }
+.button-text a{
+    height: 3vh;
+    color: #fff;
+    font-size: 1.5vh;
+    overflow: hidden;
+    cursor: pointer;
+}
 .button-text h2{
     transition: all cubic-bezier(0.165, 0.84, 0.44, 1)0.7s ;
 }
 .button-book:hover h2:nth-child(1){
-    margin-top: -2.6vh;
+    margin-top: -1.6vh;
 }
 
 .button-price{
