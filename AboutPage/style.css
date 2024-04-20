@@ -26,6 +26,15 @@ html,body{
     /* background-color: #000; */
 }
 
+.title{
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+.title1{
+    text-decoration: none;
+    font-size: 0.8vw;
+}
+
 nav{
     position: fixed;
     top: 0;

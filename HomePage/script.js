@@ -61,36 +61,36 @@ function cursorEffects(){
 }
 cursorEffects();
 
-function page5CursorEffects(){
+// function page5CursorEffects(){
 
-    var page5 = document.querySelector("#page5");
-    var p_cursor = document.querySelector("#page5-cursor")
+//     var page5 = document.querySelector("#page5");
+//     var p_cursor = document.querySelector("#page5-cursor")
 
-    page5.addEventListener("mousemove", function(dets){
-        gsap.to("#page5-cursor", {
-            x: dets.x,
-            y: dets.y,
-        })
-        console.log(dets.x)
-    })
+//     page5.addEventListener("mousemove", function(dets){
+//         gsap.to("#page5-cursor", {
+//             x: dets.x,
+//             y: dets.y,
+//         })
+//         console.log(dets.x)
+//     })
 
-    page5.addEventListener("mouseenter", function(){
-        gsap.to(p_cursor, {
-            scale:1,
-            opacity:1
-            // transform: "translate(-50%,-50%) scale(1)",
-        })
-    })
+//     page5.addEventListener("mouseenter", function(){
+//         gsap.to(p_cursor, {
+//             scale:1,
+//             opacity:1
+//             // transform: "translate(-50%,-50%) scale(1)",
+//         })
+//     })
 
-    page5.addEventListener("mouseleave", function(){
-        gsap.to(p_cursor, {
-            scale:0,
-            opacity:0
-            // transform: "translate(-50%,-50%) scale(0)",
-        })
-    })
-}
-page5CursorEffects();
+//     page5.addEventListener("mouseleave", function(){
+//         gsap.to(p_cursor, {
+//             scale:0,
+//             opacity:0
+//             // transform: "translate(-50%,-50%) scale(0)",
+//         })
+//     })
+// }
+// page5CursorEffects();
 
 function page2Animation(){
     gsap.from(".elem h1", {

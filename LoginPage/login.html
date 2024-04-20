@@ -12,7 +12,7 @@
     <div class="wrapper">
       <nav class="nav">
         <div class="nav-logo">
-          <p>Oxlo</p>
+          <a href="../Page/index.html" class="title"><p>Oxlo</p></a>
         </div>
         <div class="nav-menu" id="navMenu">
           <ul>
@@ -57,7 +57,13 @@
             <i class="bx bx-lock-alt"></i>
           </div>
           <div class="input-box">
-            <input type="submit" class="submit" value="Sign In" />
+            <a href="../HomePage/index.html"
+              ><input
+                type="submit"
+                class="submit"
+                value="Sign In"
+                onclick="login1()"
+            /></a>
           </div>
           <div class="two-col">
             <div class="one">
@@ -97,7 +103,12 @@
             <i class="bx bx-lock-alt"></i>
           </div>
           <div class="input-box">
-            <input type="submit" class="submit" value="Register" />
+            <input
+              type="submit"
+              class="submit"
+              value="Register"
+              onclick="register1()"
+            />
           </div>
           <div class="two-col">
             <div class="one">
@@ -140,6 +151,9 @@
         x.style.opacity = 1;
         y.style.opacity = 0;
       }
+      function login1() {
+        alert("You have signed in.");
+      }
 
       function register() {
         x.style.left = "-510px";
@@ -148,6 +162,9 @@
         b.className += " white-btn";
         x.style.opacity = 0;
         y.style.opacity = 1;
+      }
+      function register1() {
+        alert("You have been registered");
       }
     </script>
   </body>
